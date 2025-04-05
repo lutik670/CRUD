@@ -78,11 +78,17 @@
       <version>6.2.5</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.23</version>
+    </dependency>
 
   </dependencies>
 
 
   <build>
-    <finalName>spring_course_mvc</finalName>
+    <finalName>spring_course_mvc</finalName><plugins><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><configuration><source>8</source><target>8</target><compilerArgs>--enable-preview</compilerArgs></configuration></plugin></plugins>
   </build>
 </project>
