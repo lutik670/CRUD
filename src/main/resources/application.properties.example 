@@ -1,0 +1,5 @@
+# Пример настроек (замените значения)
+spring.datasource.url=jdbc:postgresql://localhost:5432/DB_NAME
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
+spring.datasource.driver-class-name=org.postgresql.Driver
